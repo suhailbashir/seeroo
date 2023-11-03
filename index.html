@@ -180,48 +180,30 @@
         <div class="container">
 
          
-         <form name="inquiry-form" id="inquiry-form" action="" class="tour-search-form" method="POST" data-netlify="true">
-
-            <div class="input-wrapper">
-              <label for="destination" class="input-label">Search Destination*</label>
-              
-            
-               
-                <fieldset>
-                  <input name="destination" type="text" class="form-control" id="name1" placeholder="Your Destination..." required="">
-                </fieldset>
-
+         <form id="contact" action=""  method="post" netlify>
+            <div class="row">
+                <div class="col-md-12">
+                  <fieldset>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="btn">Send Message Now</button>
+                  </fieldset>
+                </div>
             </div>
-
-            <div class="input-wrapper">
-              <label for="people" class="input-label">Number of People</label>
-
-              <fieldset>
-                <input name="people" type="text" class="form-control" id="name2" placeholder="Your people..." required="">
-              </fieldset>
-
-            </div>
-
-            <div class="input-wrapper">
-              <label for="checkin" class="input-label">Checkin Date**</label>
-
-              <fieldset>
-                  <input name="checkin" type="text" class="form-control" id="name3" placeholder="Your checkin..." required="">
-                </fieldset>
-            </div>
-
-            <div class="input-wrapper">
-              <label for="checkout" class="input-label">Checkout Date*</label>
-
-              <fieldset>
-                <input name="checkout" type="text" class="form-control" id="name4" placeholder="Your checkout..." required="">
-              </fieldset>
-            </div>
-
-            <button type="submit"  id="form-submit" class="btn btn-secondary">Inquire now</button>
-
-          </form>
-
+        </form>
         </div>
       </section>
  
