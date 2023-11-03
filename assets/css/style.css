@@ -91,6 +91,16 @@
   box-sizing: border-box;
 }
 
+.inquirybtn{
+  margin: auto;
+  margin-top: 60px;
+  
+}
+
+.inquirybtn .inqbtn{
+  width: 148px;
+}
+
 li { list-style: none; }
 
 a { text-decoration: none; }
